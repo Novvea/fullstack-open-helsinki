@@ -1,0 +1,13 @@
+title 0_6 spa new note
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+note over server:
+notes is beeing updated with the new content
+end note
+
+server-->browser: HTTP 201 Created
+
+note over server:
+The JSON data i updated and shown on the browser. No redirect
+end note
